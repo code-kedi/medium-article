@@ -1,0 +1,92 @@
+h1,
+h2,
+h3 {
+  font-family: "Raleway", sans-serif;
+  line-height: 1.6;
+}
+
+h1 {
+  color: #fff;
+  font-size: 36px;
+  margin-bottom: 60px;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+h3 {
+  color: #a8a8a8;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+p {
+  color: #383838;
+  font-family: "Red Hat Mono", monospace;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #ffdeb4;
+  font-family: "Red Hat Mono", monospace;
+  font-style: italic;
+  font-weight: 700;
+  padding: 10px 0;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+  background-image: linear-gradient(
+    to right top,
+    #ffdeb4,
+    #ffd6b1,
+    #ffceaf,
+    #ffc6af,
+    #ffbeb0,
+    #ffb6b3,
+    #ffafb9,
+    #ffa9c1,
+    #f8a3cf,
+    #eaa1df,
+    #d3a1f0,
+    #b2a4ff
+  );
+}
+
+.banner {
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+}
+
+.container {
+  margin: 50px auto;
+  width: 800px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 350px;
+  }
+}
